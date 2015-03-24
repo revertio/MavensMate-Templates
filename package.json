@@ -347,6 +347,24 @@
 					"default"		: "Invoice__c"
 				}
 			]
-		}		
+		},
+		{
+			"name" 			: "RevertTrigger",
+			"file_name"		: "RevertTrigger.trigger",
+			"description" 	: "Custom Trigger for Revert.io",
+			"author" 		: "Rich Chetwynd @richchetwynd",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Apex Trigger API Name",
+					"default"		: "AccountTrigger"
+				},
+				{
+					"name"			: "object_name",
+					"description"	: "Object API Name",
+					"default"		: "Account"
+				}
+			]
+		}				
 	]
 }
