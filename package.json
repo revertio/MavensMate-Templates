@@ -354,6 +354,11 @@
 			"description" 	: "Custom Trigger for Revert.io",
 			"author" 		: "Rich Chetwynd @richchetwynd",
 			"params"		: [
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Trigger API Name",
+		            "default" 		: "AccountTrigger"
+		        },			
 				{
 					"name"			: "object_name",
 					"description"	: "Object API Name",
